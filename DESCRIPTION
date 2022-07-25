@@ -1,0 +1,19 @@
+Package: sparseCA
+Type: Package
+Title: Sparse Correspondence Analysis for Large Contingency Tables
+Version: 0.1.0
+BugReports: https://github.com/Ruiping-LIU/sparseCA/issues
+Author: Ruiping Liu, Ndeye Niang-Keita, Gilbert Saporta
+Author@R: person("Ruiping","Liu",email="liuruiping1990@126.com",role=c("aut","cre"))
+Maintainer: The package maintainer <liuruiping1990@126.com>
+Description: Sparse Correspondence Analysis for Large Contingency Tables, described in Liu R, Niang N, Saporta G, et al. Sparse Correspondence Analysis for Contingency Tables(2020). <arXiv:2012.04271, 2020>. and the follow-up work by Liu R, Niang N, Saporta G, et al. Sparse Correspondence Analysis for Large Contingency Tables(2022)
+License: GPL (>= 2)
+Encoding: UTF-8
+NeedsCompilation: yes
+LazyData: true
+Imports: 
+    FactoMineR,
+    PMA,
+    stats
+Depends: 
+    R (>= 4.0)
